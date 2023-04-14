@@ -12,7 +12,7 @@ int main()
         printf("dead child = %d status=0x%04x\n",pid,status);
     }
     else{
-        printf("child %d dies by exit(value)\n",getpid());
+        printf("child %d die by exit(value)\n",getpid());
         exit(101);
     }
     
